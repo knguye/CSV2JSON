@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body>
+    <h1 id="header">CSV to JSON converter</h1>
+
+    <h2> CSV Data </h2>
+      <textarea id="csv-data" name="csv-data" class="data-entry" rows="8" cols="50">
+        "Id","UserName","Password"
+        "1","Bob Barker","SpayOrNeuter"
+        "2","Rob De Niro","Goodfellas"
+        "3","SpongeBob","Gary123"
+    </textarea>
+
+      <br>
+
+      <button id="convert-to-json">
+        Convert to JSON
+      </button>
+
+    
+    <h2> JS Data </h2>
+
+      <textarea id="json-data" name="csv-data" class="data-entry" rows="8" cols="50">
+      </textarea>
+      <br>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>
